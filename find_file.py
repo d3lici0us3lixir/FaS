@@ -1,5 +1,4 @@
 from unicodedata import decimal
-import datahex
 import edithex
 #파일 시그니쳐를 입력합니다
 filesign={
@@ -10,7 +9,7 @@ filesign={
 }
 
 global fat
-#fat=datahex.data
+#디스크 이미지를 edithex.py를 list형식으로 저장 해 주세요
 fat=edithex.data
 def BytesperSector():
     Bytesper=0x00
