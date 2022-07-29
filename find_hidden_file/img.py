@@ -8,7 +8,7 @@ filesign={
     (0x2E,0x20,0x20,0x20,0x20,0x20,0x20,0x20):'folder'
 }
 global fat
-fat=datahex.data
+fat=datahex.data #이미지파일의 raw데이터를 저장하면 됩니다.
 
 def BytesperSector():
     Bytesper=0x00
